@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aquathon - Potrzeby wodne</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./main.js"></script>
+</head>
+<body>
+    <div class="main final">
+        <h1 class="title-h1">
+            <div class="summary-block">
+                <div class="block-item">
+                    <div>Potrzeby wodne</div>
+                    <div class="flex">
+                        <select name="Dziennie">
+                            <option>Pokaż dziennie zużycie</option>
+                            <option>Pokaż tygodniowe zużycie</option>
+                            <option>Pokaż miesieczne zużycie</option>
+                            <option>Pokaż roczne zużycie</option>
+                        </select>
+                        <a href="" class="btn btn-generate-pdf">Wygeneruj PDF</a>
+                        <a href="" class="btn btn-share">Udostępnij link</a>
+                    </div>
+            </div>
+        </h1>
+        <div class="container">
+            
+            <div class="form-container">
+                <div class="columns-list">
+                    <div class="column-left">
+                        <div class="column-subtitle">Miejscowości</div>
+                        <div class="column-title">Pleszew</div>
+                        <div class="column-title">Kowalew</div>
+                    </div>
+                    <div class="column-right">
+                        <img class="map-plaszew" src="./map-pleszew.png" alt="">
+                        <div class="final-summary">
+                            <div class="h3-sbt">Plan</div>
+                            <h3 class="qm">Niezbędne dostawy wody</h3>
+                            <ul class="final-list">
+                                <li class="final-list-item">
+                                    <div class="final-question">Kto?</div>
+                                    <div class="final-people-block">
+                                        <img src="./people.png" alt="">
+                                        <div class="block-tile-inner">
+                                            <div class="tile-sub-title">Mieszkańcy</div>
+                                            <div class="tile-title">8502</div>
+                                        </div>
+                                    </div>
+                                    <div class="final-people-block">
+                                        <img src="./pig.png" alt="">
+                                        <div class="block-tile-inner">
+                                            <div class="tile-sub-title">Zwierzęta</div>
+                                            <div class="tile-title">9832</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="final-list-item">
+                                    <div class="final-question">Ile?</div>
+                                    <div class="final-people-block">
+                                        <img src="./water.png" alt="">
+                                        <div class="block-tile-inner">
+                                            <div class="tile-sub-title">Potrzebna woda</div>
+                                            <div class="tile-title">265 510 l</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="final-list-item">
+                                    <div class="final-question">Jak?</div>
+                                    <div class="final-people-block">
+                                        <img src="./butelka.png" alt="">
+                                        <div class="block-tile-inner">
+                                            <div class="tile-sub-title">Woda butelkowana 1,5l</div>
+                                            <div class="tile-title">2822</div>
+                                        </div>
+                                    </div>
+                                    <div class="final-people-block">
+                                        <img src="./tir.png" alt="">
+                                        <div class="block-tile-inner">
+                                            <div class="tile-sub-title">Beczkowozy</div>
+                                            <div class="tile-title">11</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="final-list-item last">
+                                    <div class="final-question">Skąd?</div>
+                                    <div class="final-people-block">
+                                        Przedsiębiorstwo Wodociągów i Kanalizacji Sp. z o.o. w Jarocinie
+                                    </div>
+                                    <div class="final-people-block blk-button">
+                                        <a class="btn btn-show-detail">Pokaż detale</a>
+                                    </div>
+                                    <div class="final-people-block">
+                                        <img src="./ruller.png" alt="">
+                                        <div class="block-tile-inner">
+                                            <div class="tile-sub-title">Dystans</div>
+                                            <div class="tile-title">18,5 KM</div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="btn-edit-wrapper">
+                                <a class="btn-edit" Href="">edytuj</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</body>
+</html>

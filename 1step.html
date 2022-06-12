@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aquathon - Podaj lokalizację</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./main.js"></script>
+</head>
+<body>
+    <div class="main">
+        <h1 class="title-h1 center">Podaj lokalizację</h1>
+        <div class="container">
+            <div class="sidebar">
+                <ul class="sidebar-list">
+                    <li class="sidebar-item active">Lokalizacja</li>
+                    <li class="sidebar-item">Zapotrzebowanie</li>
+                    <li class="sidebar-item">Plan</li>
+                    <li class="sidebar-item">Sposób dostarczeania</li>
+                    <li class="sidebar-item">Miejsce poboru</li>
+                </ul>
+            </div>
+            <div class="form-container">
+                <div class="form-container-inner">
+
+                    <h3>Wybierz pojedynczą miejscowość lub dodaj parę aby przejść dalej</h3>
+                    <form class="form" action="">
+                        <div class="loc-item">
+                            <label for="localization"><span>1</span>Wyszukaj miejscowość</label>
+                            <div class="form-item">
+                                <input type="text" name="localization">
+                                <a class="btn btn-map">Wybierz na mapie</a>
+                            </div>
+                            <img class="loc-item__img" src="map.png" alt="">
+                        </div>
+                        <div class="loc-item">
+                            <label for="localization"><span>2</span>Wyszukaj miejscowość</label>
+                            <div class="form-item">
+                                <input type="text" name="localization">
+                                <a class="btn btn-map">Wybierz na mapie</a>
+                            </div>
+                            <img class="loc-item__img" src="map.png" alt="">
+                        </div>
+                    </form>
+                    <a class="btn btn-add">Dodaj kolejną</a>
+                </div>
+                <div class="btn-wrapper">
+                    <a href="./2step.html" class="btn btn-continue">Dalej</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

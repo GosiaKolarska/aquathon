@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aquathon</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./main.js"></script>
+</head>
+<body>
+    <div class="main summer2">
+        <h1 class="title-h1">
+            <div class="summary-block">
+                <div class="block-item">
+                    <select name="Dziennie">
+                        <option>Pokaż dziennie zużycie</option>
+                        <option>Pokaż tygodniowe zużycie</option>
+                        <option>Pokaż miesieczne zużycie</option>
+                        <option>Pokaż roczne zużycie</option>
+                    </select>
+                    <div class="flex">
+                        <div class="block-tile">
+                            <img src="./water.png" alt="">
+                            <div class="block-tile-inner">
+                                <div class="tile-sub-title">Potrzebna woda</div>
+                                <div class="tile-title">109 370 l</div>
+                                <a class="link-change" href="./2step.html">zmień</a>
+                            </div>
+                        </div>
+                        <div class="block-tile">
+                            <img src="./people.png" alt="">
+                            <div class="block-tile-inner">
+                                <div class="tile-sub-title">Mieszkańcy</div>
+                                <div class="tile-title">3211</div>
+                            </div>
+                        </div>
+                        <div class="block-tile">
+                            <img src="./pig.png" alt="">
+                            <div class="block-tile-inner">
+                                <div class="tile-sub-title">Zwierzęta</div>
+                                <div class="tile-title">310</div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+
+            </div>
+        </h1>
+        <div class="container">
+            <div class="sidebar">
+                <ul class="sidebar-list">
+                    <li class="sidebar-item done">
+                        <div class="done-text">Lokalizacja</div>
+                        <div class="sidebar-item__more">2 miejscowosci</div>
+                    </li>
+                    <li class="sidebar-item done">
+                        <div>Zapotrzebowanie</div>
+                        <div class="sidebar-item__more">8502 mieszkańcy</div>
+                    </li>
+                    <li class="sidebar-item done">
+                        <div>Plan</div>
+                        <div class="sidebar-item__more">Minimalne dostawy wody</div>
+                    </li>
+                    <li class="sidebar-item active">Sposób dostarczeania</li>
+                    <li class="sidebar-item">Miejsce poboru</li>
+                </ul>
+            </div>
+            <div class="form-container transparent">
+                <div class="form-container-inner">
+                    <div class="delivery sum-plan">
+                        <h3>Wybierz sposób lub sposoby dostarczania wody: </h3>
+                        <div>
+                            <div class="choose-delivery">
+                                <label class="delivery2 delivery" for="beczkowoz">
+                                    <input type="checkbox" name="beczkowoz" id="beczkowoz">
+                                    <div class="delivery-title" >beczkowóz</div>
+                                </label>
+                                <label class="delivery1 delivery" for="ciezarowka">
+                                    <input type="checkbox" name="ciezarowka" id="ciezarowka">
+                                    <div class="delivery-title">CIĘŻARÓWKA Z WODą BUTELKOWANĄ</div>
+                                </label>
+                            </div>
+                            <div class="delivery-table delivery-table1">
+                                <h4>Ciężarówka z wodą butelkowaną</h4>
+                                <div class="info">Woda butelkowana pokrywa tylko potrzeby fizjologiczne ludności</div>
+                                <ul class="delivery-list">
+                                    <li class="delivery-item">
+                                        <div class="delivery-item-title">Potrzebnych butelek wody 1,5l</div>
+                                        <div class="delivery-item-number">8568</div>
+                                    </li>
+                                    <li class="delivery-item">
+                                        <div class="delivery-item-title qm">Potrzebnych palet</div>
+                                        <div class="delivery-item-number bold">17 palet</div>
+                                    </li>
+                                    <a class="link-more detail" href="">Pokaż detale</a>
+                                    <ul>
+                                        <li class="delivery-item">
+                                            <div class="delivery-item-title">Maksymalna ilość palet</div>
+                                            <div class="delivery-item-number">33</div>
+                                        </li>
+                                        <li class="delivery-item">
+                                            <div class="delivery-item-title">Maksymalny załadunek per paleta</div>
+                                            <div class="delivery-item-number">756 l /paleta</div>
+                                        </li>  
+                                        <li class="delivery-item">
+                                            <div class="delivery-item-title">Ilość załadunków</div>
+                                            <div class="delivery-item-number">1</div>
+                                        </li>  
+                                    </ul>
+                                </ul>
+                            </div>
+                            <div class="delivery-table delivery-table2">
+                                <h4>Beczkowóz</h4>
+                                <div class="info">Beczkowozy wykorzystują studnie prywatne lub publiczne do załadunku wody.</div>
+                                <ul class="delivery-list">
+                                    <li class="delivery-item">
+                                        <div class="delivery-item-title qm">Potrzebnych beczkowozów</div>
+                                        <div class="delivery-item-number bold">5 beczkowozów</div>
+                                    </li>
+                                    <a class="link-more detail" href="">Pokaż detale</a>
+                                    <ul>
+                                        <li class="delivery-item">
+                                            <div class="delivery-item-title">Maksymalny załadunek</div>
+                                            <div class="delivery-item-number">8 000 l</div>
+                                        </li>
+                                        <li class="delivery-item">
+                                            <div class="delivery-item-title">Maksymalny dobowy pobór wody</div>
+                                            <div class="delivery-item-number">24 000 l</div>
+                                        </li>  
+                                    </ul>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="btn-wrapper">
+                            <a href="./3step.html" class="btn btn-back">Wróć</a>
+                            <a href="./5step.html" class="btn btn-continue">Dalej</a>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+</body>
+</html>

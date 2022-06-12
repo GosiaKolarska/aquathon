@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aquathon</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./main.js"></script>
+</head>
+<body>
+    <div class="main">
+        <h1 class="title-h1">
+            <div class="summary-block">
+                <div class="block-item">
+                    <select name="Dziennie">
+                        <option>Pokaż dziennie zużycie</option>
+                        <option>Pokaż tygodniowe zużycie</option>
+                        <option>Pokaż miesieczne zużycie</option>
+                        <option>Pokaż roczne zużycie</option>
+                    </select>
+                    <div class="flex">
+                        <div class="block-tile">
+                            <img src="./water.png" alt="">
+                            <div class="block-tile-inner">
+                                <div class="tile-sub-title">Potrzebna woda</div>
+                                <div class="tile-title">109 370 l</div>
+                                <a class="link-change" href="./2step.html">zmień</a>
+                            </div>
+                        </div>
+                        <div class="block-tile">
+                            <img src="./people.png" alt="">
+                            <div class="block-tile-inner">
+                                <div class="tile-sub-title">Mieszkańcy</div>
+                                <div class="tile-title">3211</div>
+                            </div>
+                        </div>
+                        <div class="block-tile">
+                            <img src="./pig.png" alt="">
+                            <div class="block-tile-inner">
+                                <div class="tile-sub-title">Zwierzęta</div>
+                                <div class="tile-title">310</div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+
+            </div>
+        </h1>
+        <div class="container">
+            <div class="sidebar">
+                <ul class="sidebar-list">
+                    <li class="sidebar-item done">
+                        <div class="done-text">Lokalizacja</div>
+                        <div class="sidebar-item__more">2 miejscowosci</div>
+                    </li>
+                    <li class="sidebar-item done">
+                        <div>Zapotrzebowanie</div>
+                        <div class="sidebar-item__more">8502 mieszkańcy</div>
+                    </li>
+                    <li class="sidebar-item done">
+                        <div>Plan</div>
+                        <div class="sidebar-item__more">Minimalne dostawy wody</div>
+                    </li>
+                    <li class="sidebar-item done">
+                        <div>Sposób dostarczeania</div>
+                        <div class="sidebar-item__more">11 beczkowozów</div>
+                    </li>
+                    <li class="sidebar-item active">Miejsce poboru</li>
+                </ul>
+            </div>
+            <div class="form-container transparent">
+                <div class="form-container-inner">
+                    <div class="list-cities">
+                        <div class="list-item-city">
+                            <div class="list-item-city-wrapper">
+                                <div class="col-left">
+                                    <img src="map-Jarocin.png" alt="">
+                                </div>
+                                <div class="col-right">
+                                    <div class="right-inner">
+                                        <div class="title-block">
+                                            <div class="city-sub-title">Punkt Poboru</div>
+                                            <div class="city-title">Jarocin</div>
+                                        </div>
+                                        <div class="title-block">
+                                            <div class="city-sub-title">Odległość</div>
+                                            <div class="city-title">18,2 KM</div>
+                                        </div>
+                                        <a class="btn btn-show-detail">Pokaż detale</a>
+                                    </div>
+                                    <div class="right-inner-2">
+    
+                                        <div class="item-company">
+                                            <div class="company-sub-title">NAZWA</div>
+                                            <div class="company-title">PWiK Sp. z o.o.</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="list-item-city">
+                           <div class="list-item-city-wrapper">
+                               <div class="col-left">
+                                   <img src="map-Kalisz.png" alt="">
+                               </div>
+                               <div class="col-right">
+                                   <div class="right-inner">
+                                       <div class="title-block">
+                                           <div class="city-sub-title">Punkt Poboru</div>
+                                           <div class="city-title">Kalisz</div>
+                                       </div>
+                                       <div class="title-block">
+                                           <div class="city-sub-title">Odległość</div>
+                                           <div class="city-title">22,5 KM</div>
+                                       </div>
+                                       <a class="btn btn-show-detail">Pokaż detale</a>
+                                   </div>
+                                   <div class="right-inner-2">
+                                       <div class="item-company">
+                                           <div class="company-sub-title">NAZWA</div>
+                                           <div class="company-title">Przedsiębiorstwo Wodociągów i Kanalizacji Sp. z o.o.</div>
+                                       </div>
+                                   </div>
+                               </div>
+
+                           </div>
+                        </div>
+                        <div class="list-item-city">
+                            <div class="list-item-city-wrapper">
+                                <div class="col-left">
+                                    <img src="map-PsiePole.png" alt="">
+                                </div>
+                                <div class="col-right">
+                                    <div class="right-inner">
+                                        <div class="title-block">
+                                            <div class="city-sub-title">Punkt Poboru</div>
+                                            <div class="city-title">Psie Pole</div>
+                                        </div>
+                                        <div class="title-block">
+                                            <div class="city-sub-title">Odległość</div>
+                                            <div class="city-title">31,5 KM</div>
+                                        </div>
+                                        <a class="btn btn-show-detail">Pokaż detale</a>
+                                    </div>
+                                    <div class="right-inner-2">
+                                        <div class="item-company">
+                                            <div class="company-sub-title">NAZWA</div>
+                                            <div class="company-title">PWiK Sp. z o.o.</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="btn-wrapper-more">
+                            <a class="btn btn-show-more" href="">Pokaż kolejne wyniki</a>
+                        </div>
+                        <div class="btn-wrapper">
+                            <a href="./4step.html" class="btn btn-back">Wróć</a>
+                            <a href="./6step.html" class="btn btn-continue">Przejdź do podsumowania</a>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+</body>
+</html>

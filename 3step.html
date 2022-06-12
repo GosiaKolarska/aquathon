@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aquathon</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./main.js"></script>
+</head>
+<body>
+    <div class="main summer2">
+        <h1 class="title-h1">
+            <div class="summary-block">
+                <div class="block-item">
+                    <select name="Dziennie">
+                        <option>Pokaż dziennie zużycie</option>
+                        <option>Pokaż tygodniowe zużycie</option>
+                        <option>Pokaż miesieczne zużycie</option>
+                        <option>Pokaż roczne zużycie</option>
+                    </select>
+                    <div class="flex">
+                        <div class="block-tile">
+                            <img src="./people.png" alt="">
+                            <div class="block-tile-inner">
+                                <div class="tile-sub-title">Mieszkańcy</div>
+                                <div class="tile-title">3211</div>
+                            </div>
+                        </div>
+                        <div class="block-tile">
+                            <img src="./pig.png" alt="">
+                            <div class="block-tile-inner">
+                                <div class="tile-sub-title">Zwierzęta</div>
+                                <div class="tile-title">310</div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+
+            </div>
+        </h1>
+        <div class="container">
+            <div class="sidebar">
+                <ul class="sidebar-list">
+                    <li class="sidebar-item done">
+                        <div class="done-text">Lokalizacja</div>
+                        <div class="sidebar-item__more">2 miejscowosci</div>
+                    </li>
+                    <li class="sidebar-item done">
+                        <div>Zapotrzebowanie</div>
+                        <div class="sidebar-item__more">8502 mieszkańcy</div>
+                    </li>
+                    <li class="sidebar-item active">Plan</li>
+                    <li class="sidebar-item">Sposób dostarczeania</li>
+                    <li class="sidebar-item">Miejsce poboru</li>
+                </ul>
+            </div>
+            <div class="form-container transparent">
+                <div class="form-container-inner">
+                    <div class="sum-plan">
+                        <h3>Wybierz plan:</h3>
+                        <div class="choose-plan">
+                            <label class="plan plan1 active" for="plan1">
+                                <input type="radio" name="plan" id="plan1" checked="checked">
+                                <img class="img-check" src="./check2.png" alt="">
+                                <div class="plan-title" >Minimalne dostawy wody</div>
+                                <div class="plan-amount">109 370 l</div>
+                            </label>
+                            <label class="plan plan2" for="plan2">
+                                <input type="radio" name="plan" id="plan2">
+                                <img class="img-check" src="./check2.png" alt="">
+                                <div class="plan-title">Niezbędne dostawy wody</div>
+                                <div class="plan-amount">265 510 l</div>
+                            </label>
+                        </div>
+                        <div class="plan-table plan-table1 show">
+                            <a class="link-more" href="">Pokaż wyliczenia</a>
+                            <div class="calc-list-wrapper">
+                                <ul class="calc-list">
+                                    <li class="calc-item">
+                                        <div class="calc-title">potrzeby bytowo-gospodarcze ludności</div>
+                                        <div class="calc-number">63 770 l</div>
+                                    </li>
+                                    <li class="calc-item">
+                                        <div class="calc-title">potrzeby fizjologiczne ludności</div>
+                                        <div class="calc-number">4 260 l</div>
+                                    </li>
+                                    <li class="calc-item">
+                                        <div class="calc-title qm">zwierzęta hodowlane</div>
+                                        <div class="calc-number">41 340 l</div>
+                                    </li>
+                                </ul>
+                                <div class="calc-list-total">Razem: <span class="total-number">109 370 l</span></div>
+
+                            </div>
+                        </div>
+                        <div class="plan-table plan-table2">
+                            <a class="link-more" href="">Pokaż wyliczenia</a>
+                            <div class="calc-list-wrapper">
+
+                                <ul class="calc-list">
+                                    <li class="calc-item">
+                                        <div class="calc-title">potrzeby bytowo-gospodarcze ludności</div>
+                                        <div class="calc-number">127 530 l</div>
+                                    </li>
+                                    <li class="calc-item">
+                                        <div class="calc-title">potrzeby fizjologiczne ludności</div>
+                                        <div class="calc-number">12 770 l</div>
+                                    </li>
+                                    <li class="calc-item">
+                                        <div class="calc-title qm">zwierzęta hodowlane</div>
+                                        <div class="calc-number">82 670 l</div>
+                                    </li>
+                                    <li class="calc-item">
+                                        <div class="calc-title">placówki oświaty</div>
+                                        <div class="calc-number">14 040 l</div>
+                                    </li>
+                                    <li class="calc-item">
+                                        <div class="calc-title">służby zdrowia</div>
+                                        <div class="calc-number">680 l</div>
+                                    </li>
+                                    <li class="calc-item">
+                                        <div class="calc-title">urzędy i instytucje</div>
+                                        <div class="calc-number">770 l</div>
+                                    </li>
+                                    <li class="calc-item">
+                                        <div class="calc-title">gastronomia</div>
+                                        <div class="calc-number">26 400 l </div>
+                                    </li>
+                                    <li class="calc-item">
+                                        <div class="calc-title">handel</div>
+                                        <div class="calc-number">650 l</div>
+                                    </li>
+    
+                                </ul>
+                                <div class="calc-list-total">Razem: <span class="total-number">265 510 l</span></div>
+                            </div>
+                        </div>
+                        <div class="btn-wrapper">
+                            <a href="./2step.html" class="btn btn-back">Wróć</a>
+                            <a href="./4step.html" class="btn btn-continue">Dalej</a>
+                        </div>
+                    </div>
+                    
+                </div>
+        </div>
+    </div>
+</body>
+</html>
